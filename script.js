@@ -42,7 +42,7 @@ const showCorrespondingHeros = () => {
   } else {
   }
   fetch(
-    `http://gateway.marvel.com/v1/public/characters?&ts=1&apikey=5903c31f8fd15bc15a1c1c13369d0bbe&hash=d582d640bee27cb28d3d5fd309ee18a7&nameStartsWith=${inputValue}`
+    `https://gateway.marvel.com/v1/public/characters?&ts=1&apikey=5903c31f8fd15bc15a1c1c13369d0bbe&hash=d582d640bee27cb28d3d5fd309ee18a7&nameStartsWith=${inputValue}`
   )
     .then((response) => response.json())
     .then((data) => {
