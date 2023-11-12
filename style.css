@@ -10,7 +10,7 @@ body{
     background-color: aliceblue;
 }
 
-/*navbar css properties for all three pages*/
+/*Navbar css properties for all three pages*/
 nav{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -30,7 +30,7 @@ nav{
 }
 
 
-/*css properties for index.html or home page*/
+/*css Properties for index.html/HomePage*/
 #search-bar{
     margin-top: 100px;
     border: 1px solid black;
@@ -75,7 +75,7 @@ nav{
 
 
 
-/*css properties for detailsPage.html or hero details page */
+/*css Properties for detailsPage.html/Details Page */
 #hero-main{
     border-radius: 20px;
     padding: 10px;
@@ -96,7 +96,7 @@ nav{
 }
 
 
-/*css properties for favouritePage.html or favourite hero's page */
+/*css Properties for favouritePage.html/Collection Of Favourite Page*/
 #fv-main{
     display: flex;
     flex-wrap: wrap;

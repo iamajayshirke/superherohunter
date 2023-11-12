@@ -1,5 +1,5 @@
-//home page javascript
-// make a favourites key for storing all favourites hero's id in local storage if not available
+//HomePage javaScript
+// Create Favourites key for storing all favourites hero's id in local storage if not available
 if (localStorage.getItem("favourites") == null) {
   localStorage.setItem("favourites", JSON.stringify([]));
 } else {

@@ -12,9 +12,7 @@ function showDetails(idnumber) {
 // Function For Removing Id From Array And Reloading Array/Window
 function removeHero(id) {
   var index = arr.indexOf(id);
-  console.log(index);
   arr.splice(index, 1);
-  console.log(arr);
   localStorage.setItem("favourites", JSON.stringify(arr));
   location.reload();
 }
@@ -32,7 +30,6 @@ function fetchData() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.data.results[0].name);
         html += `
                 <div class="card" style="width: 20rem;">
                 <div>
